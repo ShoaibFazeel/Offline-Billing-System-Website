@@ -1,29 +1,62 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Offline Billing System — Enterprise Desktop Billing & Inventory Showcase</title>
-    <meta
-      name="description"
-      content="Standalone showcase for Offline Billing System: an Electron, React, and SQLite desktop application for rapid offline invoicing, client-specific pricing, inventory tracking, bulk billing, and PDF reporting."
-    />
-    <meta property="og:title" content="Offline Billing System — Project Showcase" />
-    <meta
-      property="og:description"
-      content="Explore interactive HTML app views, architecture, and features of the Offline Billing & Inventory Management desktop application by Shoaib Fazeel Butt."
-    />
-    <meta property="og:type" content="website" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-500/30 selection:text-white">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Offline Billing System — Electron Desktop Billing, Inventory &amp; Invoice App</title>
+  <meta name="description"
+    content="Interactive showcase of Offline Billing System: a production Electron + React + SQLite desktop app for wholesale distributors. Features offline invoicing, client-specific pricing, bulk billing, and PDF invoice generation." />
+  <meta name="author" content="Shoaib Fazeel Butt" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://offlinebillingsystem.shoaibfazeelbutt.com/" />
+  <meta name="keywords"
+    content="offline billing system, electron billing app, desktop invoice software, sqlite billing, react electron app, wholesale billing software, pdf invoice generator, offline invoicing, inventory management desktop app" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://offlinebillingsystem.shoaibfazeelbutt.com/" />
+  <meta property="og:title" content="Offline Billing System — Desktop Billing &amp; Invoice App Showcase" />
+  <meta property="og:description"
+    content="Explore live interactive HTML previews of a production Electron + React + SQLite billing app. See Dashboard, Invoice Composer, Bulk Billing, Inventory, and PDF generation in action." />
+  <meta property="og:site_name" content="Offline Billing System Showcase" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://offlinebillingsystem.shoaibfazeelbutt.com/" />
+  <meta name="twitter:title" content="Offline Billing System — Desktop Billing &amp; Invoice App Showcase" />
+  <meta name="twitter:description"
+    content="Explore live interactive HTML previews of a production Electron + React + SQLite billing app. See Dashboard, Invoice Composer, Bulk Billing, Inventory, and PDF generation in action." />
+  <meta name="twitter:creator" content="@ShoaibFazeel" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Google Analytics Consent & Loader (same as Portfolio) -->
+  <script src="/consent.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-98W440QJ56"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-98W440QJ56');
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-500/30 selection:text-white">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
